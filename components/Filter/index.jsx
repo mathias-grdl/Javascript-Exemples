@@ -7,7 +7,7 @@ function NombresImpairs() {
 	const oddNumbers = numbers.filter((num) => num % 2 !== 0);
 
 	return (
-		<ul>
+		<ul className="bg-base-200">
 			{oddNumbers.map((num) => (
 				<li key={num}>{num}</li>
 			))}
@@ -22,14 +22,14 @@ function NombresSupérieursÀDix() {
 
 	return (
 		<>
-			<ul>
+			<ul className="bg-base-200">
 				{numbersGreaterThanTen.map((num) => (
 					<li key={num}>{num}</li>
 				))}
 			</ul>
 
 			{/* autre possibilité */}
-			<ul>
+			<ul className="bg-base-200">
 				<span>===</span>
 				{numbers
 					.filter((num) => num > 10)
@@ -53,7 +53,7 @@ function UtilisateursActifs() {
 	const activeUsers = users.filter((user) => user.isActive);
 
 	return (
-		<ul>
+		<ul className="bg-base-200">
 			{activeUsers.map((user) => (
 				<li key={user.id}>{user.name}</li>
 			))}
@@ -80,7 +80,7 @@ function RechercheDynamique() {
 	);
 
 	return (
-		<div>
+		<div className="bg-base-200">
 			<input
 				type="text"
 				placeholder="Rechercher..."
@@ -108,7 +108,7 @@ function ÉvénementsÀVenir() {
 	const upcomingEvents = events.filter((event) => event.date > today);
 
 	return (
-		<ul>
+		<ul className="bg-base-200">
 			{upcomingEvents.map((event) => (
 				<li key={event.id}>
 					{event.name} - {event.date.toDateString()}

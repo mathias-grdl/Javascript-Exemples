@@ -3,6 +3,7 @@ import Every from "@/components/every";
 import Filter from "@/components/Filter";
 import ForEach from "@/components/forEach";
 import Map from "@/components/Map";
+import Reduce from "@/components/reduce";
 import Some from "@/components/some";
 
 export default function Home() {
@@ -17,6 +18,8 @@ export default function Home() {
 			<Some />
 			<aside>======</aside>
 			<ForEach />
+			<aside>======</aside>
+			<Reduce />
 			<aside>======</aside>
 		</main>
 	);
