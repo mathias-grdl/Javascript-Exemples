@@ -1,6 +1,7 @@
 "use client";
 import Every from "@/components/every";
 import Filter from "@/components/Filter";
+import Find from "@/components/find";
 import ForEach from "@/components/forEach";
 import Map from "@/components/Map";
 import Reduce from "@/components/reduce";
@@ -10,17 +11,22 @@ export default function Home() {
 	return (
 		<main className="flex min-h-screen flex-col items-center justify-between p-24">
 			<Map />
-			<aside>======</aside>
+			<aside>====== Filter ======</aside>
 			<Filter />
-			<aside>======</aside>
+			<aside>====== Every ======</aside>
 			<Every />
-			<aside>======</aside>
+			<aside>====== Some ======</aside>
 			<Some />
-			<aside>======</aside>
+			<aside>====== ForEach ======</aside>
 			<ForEach />
-			<aside>======</aside>
+			<aside>====== Reduce ======</aside>
 			<Reduce />
-			<aside>======</aside>
+			<aside>====== Find ======</aside>
+			<Find />
+			<aside>====== xxx ======</aside>
+			<aside>====== xxx ======</aside>
+			<aside>====== xxx ======</aside>
+			<aside>====== xxx ======</aside>
 		</main>
 	);
 }
