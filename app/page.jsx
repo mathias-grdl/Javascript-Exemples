@@ -13,6 +13,7 @@ import Reduce from "@/components/reduce";
 import Slice from "@/components/slice";
 import Some from "@/components/some";
 import Sort from "@/components/sort";
+import Splice from "@/components/splice";
 
 export default function Home() {
 	return (
@@ -44,7 +45,8 @@ export default function Home() {
 			<FlatMap />
 			<aside>====== slice ======</aside>
 			<Slice />
-			<aside>====== xxx ======</aside>
+			<aside>====== splice ======</aside>
+			<Splice />
 			<aside>====== xxx ======</aside>
 		</main>
 	);
