@@ -8,6 +8,7 @@ import Includes from "@/components/includes";
 import Map from "@/components/Map";
 import Reduce from "@/components/reduce";
 import Some from "@/components/some";
+import Sort from "@/components/sort";
 
 export default function Home() {
 	return (
@@ -29,7 +30,8 @@ export default function Home() {
 			<FindIndex />
 			<aside>====== includes ======</aside>
 			<Includes />
-			<aside>====== xxx ======</aside>
+			<aside>====== sort ======</aside>
+			<Sort />
 			<aside>====== xxx ======</aside>
 		</main>
 	);
