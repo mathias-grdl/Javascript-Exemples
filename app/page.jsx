@@ -2,6 +2,7 @@
 import Every from "@/components/every";
 import Filter from "@/components/Filter";
 import Find from "@/components/find";
+import FindIndex from "@/components/findIndex";
 import ForEach from "@/components/forEach";
 import Map from "@/components/Map";
 import Reduce from "@/components/reduce";
@@ -23,7 +24,8 @@ export default function Home() {
 			<Reduce />
 			<aside>====== Find ======</aside>
 			<Find />
-			<aside>====== xxx ======</aside>
+			<aside>====== FindIndex ======</aside>
+			<FindIndex />
 			<aside>====== xxx ======</aside>
 			<aside>====== xxx ======</aside>
 			<aside>====== xxx ======</aside>
