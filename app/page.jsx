@@ -4,6 +4,7 @@ import Filter from "@/components/Filter";
 import Find from "@/components/find";
 import FindIndex from "@/components/findIndex";
 import ForEach from "@/components/forEach";
+import Includes from "@/components/includes";
 import Map from "@/components/Map";
 import Reduce from "@/components/reduce";
 import Some from "@/components/some";
@@ -26,7 +27,8 @@ export default function Home() {
 			<Find />
 			<aside>====== FindIndex ======</aside>
 			<FindIndex />
-			<aside>====== xxx ======</aside>
+			<aside>====== includes ======</aside>
+			<Includes />
 			<aside>====== xxx ======</aside>
 			<aside>====== xxx ======</aside>
 		</main>
