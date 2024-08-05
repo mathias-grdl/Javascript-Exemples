@@ -5,6 +5,7 @@ import Filter from "@/components/Filter";
 import Find from "@/components/find";
 import FindIndex from "@/components/findIndex";
 import Flat from "@/components/flat";
+import FlatMap from "@/components/flatMap";
 import ForEach from "@/components/forEach";
 import Includes from "@/components/includes";
 import Map from "@/components/Map";
@@ -38,7 +39,8 @@ export default function Home() {
 			<Fill />
 			<aside>====== flat ======</aside>
 			<Flat />
-			<aside>====== xxx ======</aside>
+			<aside>====== flatMap ======</aside>
+			<FlatMap />
 			<aside>====== xxx ======</aside>
 			<aside>====== xxx ======</aside>
 			<aside>====== xxx ======</aside>
