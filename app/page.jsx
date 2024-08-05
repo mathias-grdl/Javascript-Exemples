@@ -10,6 +10,7 @@ import ForEach from "@/components/forEach";
 import Includes from "@/components/includes";
 import Map from "@/components/Map";
 import Reduce from "@/components/reduce";
+import Slice from "@/components/slice";
 import Some from "@/components/some";
 import Sort from "@/components/sort";
 
@@ -41,7 +42,8 @@ export default function Home() {
 			<Flat />
 			<aside>====== flatMap ======</aside>
 			<FlatMap />
-			<aside>====== xxx ======</aside>
+			<aside>====== slice ======</aside>
+			<Slice />
 			<aside>====== xxx ======</aside>
 			<aside>====== xxx ======</aside>
 		</main>
