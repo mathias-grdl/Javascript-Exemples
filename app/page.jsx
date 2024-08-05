@@ -4,6 +4,7 @@ import Fill from "@/components/fill";
 import Filter from "@/components/Filter";
 import Find from "@/components/find";
 import FindIndex from "@/components/findIndex";
+import Flat from "@/components/flat";
 import ForEach from "@/components/forEach";
 import Includes from "@/components/includes";
 import Map from "@/components/Map";
@@ -35,7 +36,8 @@ export default function Home() {
 			<Sort />
 			<aside>====== fill ======</aside>
 			<Fill />
-			<aside>====== xxx ======</aside>
+			<aside>====== flat ======</aside>
+			<Flat />
 			<aside>====== xxx ======</aside>
 			<aside>====== xxx ======</aside>
 			<aside>====== xxx ======</aside>
